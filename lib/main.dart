@@ -69,6 +69,7 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
